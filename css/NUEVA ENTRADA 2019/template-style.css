@@ -7,7 +7,7 @@ body {
 p {
   color: #777;
   font-size: 0.85rem;
-  line-height: 1.6rem;
+  line-height: 0.5rem;
 }
 a, a:link, a:visited, a:hover, a:active { 
 color: #777;
