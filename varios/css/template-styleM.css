@@ -75,7 +75,7 @@ blockquote::before {
   content: "“";
   display: block;
   float: left;
-  font-family: georgia;
+  font-family: Aharoni;
   font-size: 80px;
   height: 30px;
   left: -40px;
@@ -1312,7 +1312,7 @@ a.text-more-info {
 }
 a.text-more-info:after {
   content: "\f006";
-  font-family: mfg;
+  font-family: Aharoni;
   font-size: 0.8rem;
   margin-left: 0.625rem;
   transition: all 0.20s linear 0s;
@@ -1484,7 +1484,7 @@ h3.pricing-title {
   color: #7697a2!important;
   border: 1px solid #7697a2;
   border-radius: 0;
-  font-family: mfg;
+  font-family: Aharoni;
   height: 40px;
   line-height: 40px;
   margin-top: -20px;
@@ -2414,7 +2414,7 @@ a.captcha-button i,.full-name-field {
 
 body, p, li, a { 
   font-weight: 400;
-  font-family: "Barlow"; 
+  font-family: "Aharoni"; 
   font-size: 0.95rem;  
 } 
 .background-parallax-container .background-parallax-container {
@@ -2431,7 +2431,7 @@ h1, .h1 {
 }
 h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 400;
-  font-family: "Barlow";
+  font-family: "Aharoni";
 }
 .background-grey h1, .background-grey h2, .background-grey h3, .background-grey h4, .background-grey h5, .background-grey h6, .background-grey .h1, .background-grey .h2, .background-grey .h3, .background-grey .h4, .background-grey .h5, .background-grey .h6 {
   color: #454545;
@@ -2702,7 +2702,7 @@ video.video {
 .owl-carousel .owl-nav div {
   border: 0 none;
   color: #C9C9C9 !important;
-  font-family: sli;
+  font-family: Aharoni;
   font-size: 20px;
   height: auto;
   line-height: 0;
