@@ -1,0 +1,12 @@
+/*****************************
+ All rights reserved.
+ AllFont.ru (c) 2011-2015
+ *****************************/
+@font-face {
+    font-family: 'Komika Axis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Komika Axis'), local('KomikaAxis-Regular'),
+        url(http://allfont.ru/cache/fonts/komika-axis_6c5ff3b2db4fe41d202933cf4934e7f7.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/komika-axis_6c5ff3b2db4fe41d202933cf4934e7f7.ttf) format('truetype');
+}
