@@ -11,6 +11,7 @@
       <!-- CUSTOM STYLE -->      
       <link rel="stylesheet" href="css/template-styleM.css">
 	   <link href="https://fonts.googleapis.com/css?family=Anton|Baloo+Bhai|Lobster|Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bangers|Fredoka+One|Luckiest+Guy&display=swap" rel="stylesheet">
 
       
 	   
@@ -22,14 +23,14 @@ text-decoration: none;
  color: #fff;
  font-weight: bold;
  padding: 12px 20px;
- font-size: 18px;
+ font-size: 58px;
  border-radius: 10px;
  background-color: #F5A309;
  box-shadow: 0 5px 5px #F40307, 0 9px 0 #FC080C, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
  position: relative;
  border-bottom: 1px solid rgba(255,255,255,0.2);
  display: inline-block;
- font-family: Arial, Helvetica, sans;
+font-family: 'Luckiest Guy', cursive;
  text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
 }
  
@@ -66,7 +67,7 @@ text-decoration: none;
 		
 		.div1 {
   background-image: url("../images/cuerdas.gif");
-  background-size: 100% 100%;
+  background-size: 50% 50%;
 }
 		.img1{
 			width: 100%;
@@ -115,7 +116,10 @@ text-decoration: none;
 							  text-shadow:
 								 1px  1px rgba(255, 255, 255, .1),
 								-1px -1px rgba(0, 0, 0, .88),
-								 0px  0px 20px #0099ff;/*color de la luz del texto*/
+								 1px  1px 50px #3AFF00;/*color de la luz del texto*/
+								border: solid 7px #FB7006;
+								font-family: 'Luckiest Guy', cursive;
+
 							}
 							.luz{
 							  font-size:80px;/*tamaño de la fuente*/
@@ -123,7 +127,28 @@ text-decoration: none;
 							  text-shadow:
 								 1px  1px rgba(255, 255, 255, .1),
 								-1px -1px rgba(0, 0, 0, .88);
+							  border: solid 7px #FB0652;
+								background-color: #FFA600;
+								font-family: 'Luckiest Guy', cursive;
+
 							}
+								
+								
+								.luz2.on{
+							  color: #FF1F00;/*color del texto al cambiar*/
+							  text-shadow:
+								 1px  1px rgba(255, 255, 255, .1),
+								-1px -1px rgba(0, 0, 0, .88),
+								 0px  0px 20px #0099ff;/*color de la luz del texto*/
+							}
+							.luz2{
+							  font-size:80px;/*tamaño de la fuente*/
+							  color: #06F729;
+							  text-shadow:
+								 1px  1px rgba(255, 255, 255, .1),
+								-1px -1px rgba(0, 0, 0, .88);
+							}
+								
 							</style>
 					
 										<!-- FIN TEXTO PARPADEANDO-->
@@ -172,14 +197,31 @@ text-decoration: none;
       
       
      <!-- Modal -->
-     <div  class="modal fade in" id="myModal" role="dialog" style="display: block; padding-right: 17px; background: #FB9008"><div class="modal-dialog"><!-- Modal content-->
+     <div align="center"  class="modal fade in" id="myModal" role="dialog" style="display: block; padding-right: 17px; background: #FB9008">
+		 
+		 <div align="center" class="modal-dialog"><!-- Modal content-->
          <div align="center" class="div1 modal-content"><div class="modal-header"><button class="close" data-dismiss="modal" type="button">×</button>
-             <h4 class="modal-title" style="color: black"><a class="boton colorBoton formaBoton" target="_blank" href="https://puertaaccesoclublaguitarradelcatolico.netlify.com/">Entrar!</a></h4></div><br><br><br><br><br><br>
+             <h4 class="modal-title" style="color: black">
+				 
+				 <a class="boton colorBoton formaBoton luz" id="blink" target="_blank" href="https://puertaaccesoclublaguitarradelcatolico.netlify.com/">Entrar!</a>
+			 
+			 </h4></div><br><br><br><br><br><br>
 			
 			 
 			 <div class="modal-body"><img class="img1" width="10%" src="../images/2019---INSIGNIA-CLUB2.gif"  ><BR><BR><p style="line-height: 50PX;text-align: center ;text-shadow: 1px 1px 15px #09AFF7, 1px 1px 10px #09AFF7, 1px 1px 30px #09AFF7, 5px 1px 30px #09AFF7, 0px 0px 30px #09AFF7, 0px 0px 30px #09AFF7, 0px 0px 30px #09AFF7; font-family: Baloo Bhai; color: #DB440A; font-size: 50px"><strong style="font-family: Shadows Into Light; font-size: 50px; color: orangered;text-shadow: 1px 1px 15px #F7B609, 1px 1px 10px #F7B609, 1px 1px 50px #F7B609, 5px 1px 50px #F7B609, 0px 0px 50px #F7B609, 0px 0px 50px #F7B609, 0px 0px 50px #F7B609;"> <strong style="font-size: 120px; color: red">B</strong>IENVENIDOS</strong><br> <strong style="font-size: 70px; color: steelblue;">C</strong>LUB LA <strong style="font-size: 70px; color: orange">G</strong>UITARRA DEL <strong style="font-size: 70px; color: orange">C</strong>ATÓLICO <strong style="font-size: 70px; color: orange"><br><br>2020</strong></p>
-     </div><div align="center" class="modal-footer"><a class="boton colorBoton formaBoton" target="_blank" href="https://puertaaccesoclublaguitarradelcatolico.netlify.com/">Entrar!</a>
-           </div></div></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+     </div>
+					<a style="text-align: center" class="boton colorBoton formaBoton luz2" id="blink1" target="_blank" href="https://puertaaccesoclublaguitarradelcatolico.netlify.com/">Entrar!</a>
+
+		<div align="center" class="modal-footer">
+           </div>
+			</div>
+			 </div>
+			 
+			 </div>
+			 
+	
+			 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
      <script type="text/javascript">
       $(function(){
