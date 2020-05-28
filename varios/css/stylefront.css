@@ -1,0 +1,241 @@
+		
+			
+
+.cop {
+  position: absolute;
+  font-family: 'Fredoka One', cursive;
+  font-size: 40px;
+  line-height: 1;
+  margin: 668px;
+  margin-top: 00px; 
+  padding-left: 0px;
+  /* font-weight: normal; */
+  background-image: -webkit-linear-gradient(#022486 0%, #09c7f3 30%, #BDFCFC 40%, #0491f5 44%, #00081C 44%, #f10788 50%, #074A67 52%, #1CD8FE 60%, #040d6f 62%, #96F5FC 70%, #f95405 73%, #f7d507 88%, #ff8507 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.mac .cop {
+  font-weight: bold;
+}
+
+.cop:before {
+  position: absolute;
+  content: '';
+  left: 51px;
+  top: 74px;
+  width: 80px;
+  height: 5px;
+  background-image: -webkit-radial-gradient(#fff 10%, transparent 95%);
+  z-index: 4;
+  -webkit-animation-name: cop_before_effect;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.cop:after {
+  position: absolute;
+  content: '';
+  left: 90px;
+  top: 32px;
+  width: 3px;
+  height: 180px;
+  background-image: -webkit-radial-gradient(#fff 0%, transparent 85%);
+  z-index: 4;
+  -webkit-animation-name: cop_after_effect;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes chrome_effect {
+  0% {background-position:-680px 0;}
+  10% {background-position:420px 0;}
+  100% {background-position:420px 0;}
+}
+
+@-webkit-keyframes cop_before_effect {
+  0% {
+    left: 51px;
+    top: 74px;
+    opacity: 0;}
+  
+  15% {
+    left: 51px;
+    top: 74px;
+    opacity: 1;}
+  
+  30% {
+    left: 51px;
+    top: 74px;
+    opacity: 0;}
+  
+  35% {
+    left: 370px;
+    top: 45px;
+    opacity: 0;}
+   
+  50% {
+    left: 370px;
+    top: 45px;
+    opacity: 1;}
+  
+  65% {
+    left: 370px;
+    top: 45px;
+    opacity: 0;}
+  
+  70% {
+    left: 564px;
+    top: 74px;
+    opacity: 0;}
+   
+  85% {
+    left: 564px;
+    top: 74px;
+    opacity: 1;}
+  
+  100% {
+    left: 564px;
+    top: 74px;
+    opacity: 0;}
+}
+
+@-webkit-keyframes cop_after_effect {
+  0% {
+    left: 90px;
+    top: 32px;
+    opacity: 0;}
+  
+  15% {
+    left: 90px;
+    top: 32px;
+    opacity: 1;}
+  
+  30% {
+    left: 90px;
+    top: 32px;
+    opacity: 0;}
+  
+  35% {
+    left: 413px;
+    top: 11px;
+    opacity: 0;}
+   
+  50% {
+    left: 413px;
+    top: 11px;
+    opacity: 1;}
+  
+  65% {
+    left: 413px;
+    top: 11px;
+    opacity: 0;}
+  
+  70% {
+    left: 603px;
+    top: 32px;
+    opacity: 0;}
+   
+  85% {
+    left: 603px;
+    top: 32px;
+    opacity: 1;}
+  
+  100% {
+    left: 603px;
+    top: 32px;
+    opacity: 0;}
+}
+			
+			
+			
+			
+			
+		.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #FB4600 50%, #FFAE00 50%, #FFAE00 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content1 {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  /*font-family: 'Fredoka One', cursive;
+	font-size: 40px;
+	text-shadow: 0 1px 0 #FBFBFB,
+                0 2px 0 #FBFBFB,
+                0 3px 0 #FBFBFB, 
+                0 4px 0 #FBFBFB, 
+                0 5px 0 #020202, 
+                0 6px 1px rgba(0, 0, 0, .1), 
+                0 0 5px rgba(0, 0, 0, .1), 
+                0 1px 3px rgba(0, 0, 0, .3), 
+                0 3px 5px rgba(0, 0, 0, .2), 
+                0 5px 10px rgba(0, 0, 0, .25), 
+                0 10px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15) ;*/
+	  margin: 0px;
+
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+			
+			@media screen and (max-width:768px) {
+				
+				
+				h1 {
+				font-size: 30px;	}
+				
+				.cop{
+					
+			margin: 0px;
+			font-size: 30px;
+			background-image: -webkit-linear-gradient(#022486 0%, #09c7f3 30%, #BDFCFC 40%, #0491f5 44%, #00081C 44%, #f10788 50%, #074A67 52%, #1CD8FE 60%, #040d6f 62%, #f98b02 70%, #e4a600 73%, #f7d507 88%, #ff8507 100%); 
+					
+						}	
+				
+				
+				
+				
+			}
+			
+			
+			
